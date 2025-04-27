@@ -1,0 +1,43 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "diskusage": "^1.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-os-utils": "^1.3.7",
+    "socket.io": "^4.8.1",
+    "systeminformation": "^5.25.11",
+    "ws": "^8.18.0"
+  },
+  "name": "statsmonit",
+  "version": "1.0.0",
+  "description": "A Simple Server Monitoring",
+  "main": "index.js",
+  "devDependencies": {
+    "tailwindcss": "3.4.17"
+  },
+  "scripts": {
+    "build": "tailwindcss -i ./src/styles.css -o ./public/css/styles.css --minify",
+    "start": "node index.js",
+    "format": "prettier --write \"**/*.{html,js,css}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rizzbrew/statsmonit.git"
+  },
+  "keywords": [
+    "server",
+    "stats",
+    "server",
+    "statistic",
+    "monitoring",
+    "server",
+    "monitoring"
+  ],
+  "author": "RizzyFuzz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rizzbrew/statsmonit/issues"
+  },
+  "homepage": "https://github.com/rizzbrew/statsmonit#readme"
+}
